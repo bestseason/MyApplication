@@ -54,8 +54,8 @@ public class SplashActivity extends Activity {
     //*************************************************
     // Handler:跳转至不同页面
     //*************************************************
-    private final static int SWITCH_MAINACTIVITY = 1000;
-    private final static int SWITCH_GUIDACTIVITY = 1001;
+    private final static int SWITCH_MAINACTIVITY = 1001;
+    private final static int SWITCH_GUIDACTIVITY = 1000;
     public Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
             switch (msg.what) {
