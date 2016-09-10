@@ -2,9 +2,8 @@
 <selector
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true"
-        android:drawable="@color/colorSelected"
-        android:color="@color/tabSelected"/>
+        android:color="@color/tabSelected">
+    </item>
     <item android:state_selected="false"
-        android:drawable="@color/colorUnselected"
         android:color="@color/tabUnselected"/>
 </selector>
